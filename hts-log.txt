@@ -1,0 +1,16 @@
+HTTrack3.49-2 launched on Tue, 28 Feb 2023 10:07:02 at https://www.classcentral.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://www.classcentral.com/ -O "/Users/jxli3t/websites/New" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -r1 -%e1 -A25000 -F msie6 -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:08:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.classcentral.com/opensearch.xml
+10:09:39	Warning: 	Warning: store image/svg+xml without scan: /Users/jxli3t/websites/New/www.classcentral.com/safari-pinned-tab.svg
+10:10:53	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): static.getclicky.com/js
+10:10:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): in.getclicky.com/100717250ns.gif
+10:10:58	Warning: 	Warning: store image/svg+xml without scan: /Users/jxli3t/websites/New/ccweb.imgix.net/https_/www.classcentral.com/images/promobar/deale4ca.svg
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 57 seconds : 73 links scanned, 82 files written (972554 bytes overall) [352290 bytes received at 1486 bytes/sec], 699951 bytes transferred using HTTP compression in 9 files, ratio 18%, 4.1 requests per connection
+(No errors, 5 warnings, 0 messages)
